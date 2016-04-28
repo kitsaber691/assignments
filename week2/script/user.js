@@ -1,18 +1,11 @@
 $("document").ready(function () {
-  var button = document.getElementsByName("submit");
-  var list = document.getElementsByTagName("tbody")[0];
-  var firstName = document.getElementsByName("fname").value;
-  var lastName = document.getElementsByName("lname").value;
-  var birthYear = document.getElementsByName("birth").value;
-  var hogWarts = document.getElementsByName("house").value;
+  var button = document.getElementsByName("submit"), list = document.getElementsByTagName("tbody")[0], firstName = document.getElementsByName("fname").value, lastName = document.getElementsByName("lname").value, birthYear = document.getElementsByName("birth").value, hogWarts = document.getElementsByName("house").value, formData = [], cell = document.createElement("td");
   function bio(fname, lname, birth, house) {
     this.firstName = fname;
     this.lastName = lname;
     this.birthYear = birth;
     this.hogWarts = house;
   }
-  var formData = [];
-  var cell = document.createElement("td");
   $(button).click(function (event) {
     event.preventDefault();
     formData.push(bio());

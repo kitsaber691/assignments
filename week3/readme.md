@@ -65,7 +65,7 @@ Listed at [W3Schools](http://www.w3schools.com/js/js_array_methods.asp).
 
 Components
 
-* Basic webpage with `<input type="textarea">`
+* Basic webpage with `<textarea>`
   * Submit and Reset buttons below form
 * Each time the user clicks Submit, check whether the text entry is a number or a string
   * If number, then need to display submission quantity, and sum and mean of all entries

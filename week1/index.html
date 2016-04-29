@@ -3,22 +3,21 @@
   <head>
     <meta charset="utf-8">
     <title>Tracking Number Input</title>
-    <!-- <link rel="stylesheet" type="text/css" href="main.css"> -->
-    <!-- Styles to come -->
+    <link rel="stylesheet" type="text/css" href="styles/main.css"> 
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.3.min.js"></script>
-    <script type="text/javascript" src="script/clear.js"></script>
+    <script type="text/javascript" src="script/user.js"></script>
   </head>
   <body>
     <header>
       <h1>Numbers</h1>
     </header>
-    <form method="post" action="formdata.html">
+    <form>
       <fieldset>
         <legend>Enter a number between 1 and 50</legend>
-        <input type="number" name="value" min="1" max="50" step="1">
+        <input type="number" name="integer" min="1" max="50" step="1">
       </fieldset>
-      <input type="submit" value="Submit" id="submit">
-      <input type="button" value="Reset" id="reset">
+      <input type="submit" name="submit" value="Submit">
+      <input type="button" name="reset" value="Reset">
     </form>
   </body>
 </html>
